@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
     //Fin del Singleton
 
     //DECLARAMOS CUALQUIER VALOR GENERAL EN PUBLIC
-    public int playerHealth;
+    public float playerHealth;
+    public float maxHealth = 100;
     public int playerPoints;
 
     private void Awake()

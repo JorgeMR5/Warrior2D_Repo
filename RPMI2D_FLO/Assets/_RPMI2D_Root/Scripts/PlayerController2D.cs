@@ -76,6 +76,7 @@ public class PlayerController2D : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+        AudioManager.Instance.PlaySFX(3);
     }
 
     void Shoot()

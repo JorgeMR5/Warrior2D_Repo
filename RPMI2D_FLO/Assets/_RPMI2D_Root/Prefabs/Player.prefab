@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6633837562897281126}
   - component: {fileID: 7459383722604310123}
   - component: {fileID: 3784811514307933284}
+  - component: {fileID: 4729848047769035044}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -216,6 +217,7 @@ MonoBehaviour:
     m_Bits: 8
   projectile: {fileID: 4688851539611162938, guid: b9967fcd7633ce7419cd4756cc0f343d, type: 3}
   shootPoint: {fileID: 5641648442078654681}
+  shootCooldown: 1
 --- !u!114 &3784811514307933284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,6 +312,18 @@ MonoBehaviour:
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &4729848047769035044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240955600600230918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00669183ca878ba4490f0839b25dc9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationSFXTriggers
 --- !u!1 &2515426461586172265
 GameObject:
   m_ObjectHideFlags: 0
